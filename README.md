@@ -1,15 +1,5 @@
-# vertexMind_internship
-Mission 1: Python Fundamentals
-This repository contains a collection of Python scripts covering basic programming concepts.
-
-Exercises Included
-Fibonacci Sequence: A function to calculate the nth Fibonacci number.
-
-Prime Checker: A function to determine if a number is prime.
-
-File I/O: Functions to write to and read from a text file.
-
-How to Run
-Ensure you have Python 3.x installed.
-
-Run the script: python mission1.py
+Mission 1: Python FundamentalsCovers basic syntax, control flow, functions, and file handling.ExercisesFibonacci & Prime Logic: Implemented algorithms for numerical sequences and primality testing.File I/O: Demonstrated reading and writing to external text files.How to RunBashcd W1_Fundamentals
+python mission1.py
+Mission 2: OOP & Data StructuresCovers class creation, inheritance, and efficient data management.Project: Library Management SystemDeveloped an inventory system using Object-Oriented Programming principles.Key TechnologiesOOP: Classes, Inheritance, and Encapsulation.Data Structures: Using dictionaries for $O(1)$ lookup performance.Error Handling: try/except blocks for robust user input.Challenges & LearningsInheritance: Mastered super().__init__() to properly pass attributes between parent and child classes.Robustness: Learned to prioritize user-side error handling to prevent program crashes during invalid inputs.How to RunBashcd W2_OOP_DataStructures
+python mission2.py
+🛠 Tech StackLanguage: Python 3.xVersion Control: Git & GitHubEnvironment: VS Code
