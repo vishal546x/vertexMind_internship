@@ -1,9 +1,3 @@
-My Python Learning Journey
-This repository serves as my professional learning portfolio for the VertexMind internship, documenting my progression through essential programming principles, scalable software design, and real-world script automation. The project tracks my development from core functional scripts up to complete object-oriented systems and system-level automation utilities.
-
-Mission Control
-The repository is structured chronologically across three main development phases. Mission 1 establishes the baseline for Python fundamentals and sequence logic. Mission 2 introduces object-oriented programming architectures and efficient data collection handling. Mission 3 applies these elements into an end-to-end command-line utility for localized file system organization.
-
 Mission 1: Python Fundamentals
 This section covers core syntax, conditional execution pathways, functional modules, and basic file operations. I built a Fibonacci sequence generator that uses a sequential calculation array to resolve values without deep recurrence overhead. Alongside this, I engineered a primality testing module that optimizes runtime by only evaluating factors up to the square root of the target integer. Finally, I implemented persistent file handling routines designed to systematically write data matrices to disk and retrieve them from a plain text file named sample.txt.
 
@@ -19,5 +13,7 @@ This project shifts toward applying programmatic logic to resolve actual workflo
 
 To execute this segment, change directories into W3_Project_Development and run the script utilizing the command python organizer.py.
 
-Core Tech Stack
-The entire suite of projects runs natively on the Python 3 runtime environment. Visual Studio Code served as the primary local text editor and debugging workspace, while Git and GitHub handled local version control histories and remote repository syncing.
+Mission 4: Code Quality Testing and Portfolio Packaging
+To transition these independent projects into production-ready software, this final phase applied engineering benchmarks across the codebase. I introduced automated unit testing using the pytest framework to programmatically validate core logic, isolate edge cases, and catch potential regression bugs during code updates. Every class, method, and function was updated to adhere to PEP 257 docstring standards, explicitly detailing input parameters, variable data types, return behaviors, and operational constraints. Furthermore, the complete repository underwent structured refactoring to systematically eliminate duplicate execution blocks, enforce self-documenting variable naming conventions, and improve overall readability. This packaging phase ensures the repository functions as a highly presentation-ready portfolio demonstrating rigorous developer standards.
+
+To run the automated test suite, ensure the pytest library is installed locally, navigate to the project directory, and execute the command pytest.
